@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         console.log('Starting chat session...');
         ChannelIO('boot', {
-            pluginKey: '748abef7-08de-4b43-a36d-6784199afd77', // 実際のプラグインキーに置き換えてください
+            pluginKey: 'myPluginKey', // 実際のプラグインキーに置き換えてください
             memberId: email,
             profile: {name, email, firstMessage},
         }, (error, user) => {
