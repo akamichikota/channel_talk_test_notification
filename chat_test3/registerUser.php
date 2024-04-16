@@ -1,7 +1,7 @@
 <?php
 // APIキーの設定
-$accessKey = '661b221782915c8bc762';
-$accessSecret = '3580f8e89e85879c260ab394d1779035';
+$accessKey = 'myAccessKey';
+$accessSecret = 'myAccessSecret';
 
 // リクエストボディからデータを取得
 $data = json_decode(file_get_contents('php://input'), true);
